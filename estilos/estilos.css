@@ -16,15 +16,8 @@ h2{
 footer
 {text-align: left;}
 
-.contenedor-menu img{
-    width: 10%;
-}
 
-.contenedor-menu{
-    background-color: rgb(12, 11, 11);
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .menuprincipal{
     display: flex;
@@ -109,10 +102,7 @@ footer
                 
                 }
 
-                .contenedor-menu{
-                    grid-area: header;
-
-                }
+              
 
                 .titulo1{
                     grid-area: nav;
@@ -160,11 +150,7 @@ footer
                             display: flex;
                             justify-content: space-around; 
                         }
-                        .contenedor-menu{
-                            background-color: rgb(163, 95, 7);
-                            display: flex;
-                            justify-content: space-around;
-                        }
+                      
 
 
                 }
@@ -196,12 +182,7 @@ footer
                         display: flex;
                         justify-content: space-around; 
                     }
-                    .contenedor-menu{
-                        background-color: rgb(8, 8, 8);
-                        display: flex;
-                        justify-content: space-around;
-                    }
-
+                    
 }
 
                 /* tamaño pequeñas pamntallas */
@@ -233,10 +214,10 @@ footer
                             display: flex;
                             justify-content: center; 
                         }
-                        .contenedor-menu{
-                            background-color: rgb(8, 8, 8);
-                            display: flex;
-                            justify-content: center;
-                        }
+                        
     
  }
+
+
+ /* bottstra*/
+
