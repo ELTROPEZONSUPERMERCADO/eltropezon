@@ -106,26 +106,30 @@ nav a {
 
 
 /* whatapp de costado --------------------------------------- */
-.whatsapp-container {
-            margin-bottom: 35px;
-        }
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.whatsapp-button img {
+    width: 60px; /* Ajusta el tamaño del logo */
+    height: auto;
+    border-radius: 50%; /* Hace que el logo sea circular */
+    
+}
+
+
+.whatsapp-button:hover img {
+    transform: scale(1.1); /* Pequeño aumento al pasar el ratón */
+    transition: transform 0.2s ease-in-out;
+}
 
 
 
-         .fixed-whatsapp {
-            position: fixed;
-            top: 700px;
-            right: 10px;
-            padding: 10px;
-           
-        }
 
-        .whatsapp-imagen {
-            width: 50px; /* ancho de la imagen */
-            height: 50px; /* alto de la imagen */
-            display: block; /* hace que la imagen se muestre como un bloque */
-             border-radius: 50%;
-        }
 
 /* para footer -----------------------------------------------------------------------------------------*/
 .logo-footer {
@@ -971,7 +975,19 @@ justify-content: center; /* centra el contenido horizontalmente */
            align-items: none;
         }
 
- 
+ /*------- sector what appp-----*/
+
+.whatsapp-button {
+        bottom: 10px; /* Lo sube un poco */
+        right: 10px; /* Mueve el botón a la izquierda*/
+        left: auto; /* Elimina el centrado horizontal */
+        transform: none; /* Elimina la traslación para centrar */
+    }
+
+    .whatsapp-button img {
+        width: 40px; /* Achica el logo dentro del botón */
+        height: auto;
+    }
 }
 
 .video-novedades {
