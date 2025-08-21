@@ -719,17 +719,31 @@ justify-content: center; /* centra el contenido horizontalmente */
         align-items: center;
     }
 
-    .contenedor-footer {
-        flex-direction: column;
-        align-items: center;
+   
+
+    /* Ajusta el tamaño de los logos en el footer */
+
+    .contenedor-footer-pago,
+    .contenedor-footer-horario,
+    .contenedor-footer-redes {
+        width: 100%; /* Ocupan todo el ancho en pantallas pequeñas */
+        margin-bottom: 10px; /* Reducir el margen inferior */
     }
 
-
-
-    .contenedor-footer-horario, .contenedor-footer-pago, .contenedor-footer-redes {
-        justify-content: center;
-        margin-bottom: 10px;
+    .contenedor-footer ul,
+    .contenedor-footer li {
+        font-size: 0.8em; /* Reduce el tamaño de la fuente */
     }
+
+    .logo-footer {
+        width: 40px; /* Ajusta el tamaño de los logos de pago en pantallas pequeñas */
+    }
+
+    .logo-redes {
+        width: 25px; /* Ajusta el tamaño de los logos de redes sociales en pantallas pequeñas */
+    }
+/* ----------------------------------------*/
+
 
     .contenedor-contacto{
         grid-template-columns: 100%;
@@ -988,8 +1002,13 @@ justify-content: center; /* centra el contenido horizontalmente */
         width: 40px; /* Achica el logo dentro del botón */
         height: auto;
     }
+
+
 }
+
+
 
 .video-novedades {
     max-width: 768px; /*  Un ancho mayor en pantallas más grandes */
   }
+
